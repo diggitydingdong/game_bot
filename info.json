@@ -1,0 +1,10 @@
+{
+  "token": "",
+  "version": "0.2.1",
+  "diggityID": "270856336466509835",
+  "prefix": "==",
+  "embedColour": "#BB4430",
+  "tictactoeArrows": ["↖️", "⬆️", "↗️", "⬅️", "⏺️", "➡️", "↙️", "⬇️", "↘️"],
+  "connect4Slots": ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"],
+  "invite": "https://discord.com/oauth2/authorize?client_id=706038103567237191&scope=bot&permissions=0"
+}

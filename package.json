@@ -1,0 +1,11 @@
+{
+	"name": "game-bot",
+	"version": "0.0.1",
+	"description": "Game Bot",
+	"main": "bot.js",
+	"author": "diggitydingdong",
+	"dependencies": {
+		"discord.js": "^12.2.0",
+		"winston": "^3.2.1"
+	}
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Commands:",
+  "footer": "If you have any further questions, direct them to diggitydingdong#3084.",
+  "inBetween": " > ",
+  "categories": [
+    {
+      "categoryName": "General",
+      "subCommands": [
+        {
+          "name": "help",
+          "description": "Sends this list."
+        },
+        {
+          "name": "invite",
+          "description": "Sends the invite link for the bot, so you can add it to your own server."
+        }
+      ]
+    },
+    {
+      "categoryName": "Tic-tac-toe",
+      "categoryCommand": "ttt",
+      "subCommands": [
+        {
+          "name": "start @Opponent",
+          "description": "Starts a game against the @Opponent. Note: @Opponent must be a mention (i.e. highlighted)."
+        },
+        {
+          "name": "stop",
+          "description": "Stops the current game of tic-tac-toe you're in."
+        }
+      ]
+    },
+    {
+      "categoryName": "Connect Four",
+      "categoryCommand": "c4",
+      "subCommands": [
+        {
+          "name": "start @Opponent",
+          "description": "Starts a game against the @Opponent. Note: @Opponent must be a mention (i.e. highlighted)."
+        },
+        {
+          "name": "stop <game id>",
+          "description": "Stops the game with the id <game id> (required)."
+        }
+      ]
+    }
+  ]
+}

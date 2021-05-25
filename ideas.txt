@@ -1,0 +1,33 @@
+=== GAME MAN IDEAS ===
+
+- Get an avatar
+- General game commands
+  - ==<game> view [id]
+    - If id is unprovided, just provide basic stats about the game
+      - How many games are currently happening, how many games have ever been player, how many servers is the bot in, etc
+    - If the id is provided, sends a copy of the game currently happening
+- Leaderboard
+  - ==leaderboard <game> [category] [global/server]
+    - Will show a leaderboard of the highest [category] scores either on [global] or [server]
+    - [category]:
+      - Wins
+      - Win/loss rate
+      - Loss rate
+    - Note: does not include Game Man games
+- C4 ideas
+  - Undo function
+    - The person who's turn it is can choose to give their opponent another chance on their previous move
+    - Can be chained
+  - ==c4 wait
+    - Pairs you up with another person using the command
+    - Every second it matches everybody in the waiting room with another user in the room
+    - Theoretically people could play across servers
+- Remake Tic tac toe
+- Other games
+  - Ultimate tic tac toe
+  - Battleship
+    - Played entirely in DMs
+  - Checkers
+    - How to implement...?
+  - Chess
+    - I have no idea how.
