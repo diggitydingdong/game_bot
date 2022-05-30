@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client  = new Discord.Client();
 const info    = require('./info.json');
+const auth    = require('./auth.json');
 var logger    = require('winston');
 
 var cmd    = require('./cmd.js');
@@ -12,7 +13,7 @@ client.once('ready', () => {
   client.user.setActivity(info.prefix + "help - Version " + info.version);
 })
 
-client.login(info.token);
+client.login(auth.token);
 
 client.on('message', message => {
   if(message.author.bot) return;
